@@ -11,41 +11,7 @@ p.detail { color:#5585d1;font-weight:bold;font-family:Tahoma;font-size:20 }
 span.name { color:#4aa545;font-weight:bold;font-family:Tahoma;font-size:20 }
 p.desc { color:#000000;font-weight:normal;font-family:Calibri;font-size:18 }
 p.contact {padding-top: 5px;}
-
-#background-video {
-
-    /* Your background image */
-
-    background-image: url("01_apple.png");
-
-    background-repeat: no-repeat;
-    padding: 50px;
-}
-
-#vidwrap {
-
-    /* Your thumbnail image */
-
-    background: url("01_apple.png") no-repeat center;
-
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    overflow:hidden;
-    background-repeat: no-repeat;
-    width:480px;
-    height:360px;
-    cursor:pointer;
-}
 </style>
-<script type="text/javascript">function play(){document.getElementById('vidwrap').innerHTML = '<iframe width="320" height="540" src="https://www.youtube.com/embed/k99mV47zumo?controls=0" frameborder="0" allow="autoplay; encrypted-media"></iframe>';}
-function switchToVideo(){
-  document.getElementById('theOne').style.display = "block";
-  document.getElementById('poster').style.display = "none";
-  //document.getElementById('theOne').playVideo();
-}
-</script>
 </head>
 <body>
 <br><br>
@@ -53,9 +19,10 @@ function switchToVideo(){
   <tr>
     <td colspan=3 height="50" align="center" valign="top"><p class="detail">Fore <span class="name">Studio</span></p></td>
   </tr>
-  <tr bgcolor="#000000">
+  <!--<tr bgcolor="#000000">
     <td colspan="3" width="100%" bgcolor="#000000" align="center"><img src="small_screen.png" alt=""></td>
   </tr>
+  -->
   <tr>
     <td colspan=3 height="50" align="center"><br><p class="detail">Smart Ball</p></td>
   </tr>
