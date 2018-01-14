@@ -1,8 +1,116 @@
 <html>
+<head>
+<style>
+table, th, td {
+    border: 1px;
+    border-collapse: collapse;
+}
+h1   {color: blue;}
+h2   {color: red;}
+p.detail { color:#5585d1;font-weight:bold;font-family:Tahoma;font-size:20 }
+span.name { color:#4aa545;font-weight:bold;font-family:Tahoma;font-size:20 }
+p.desc { color:#000000;font-weight:normal;font-family:Calibri;font-size:18 }
+p.contact {padding-top: 5px;}
+
+#background-video {
+
+    /* Your background image */
+
+    background-image: url("01_apple.png");
+
+    background-repeat: no-repeat;
+    padding: 50px;
+}
+
+#vidwrap {
+
+    /* Your thumbnail image */
+
+    background: url("01_apple.png") no-repeat center;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow:hidden;
+    background-repeat: no-repeat;
+    width:480px;
+    height:360px;
+    cursor:pointer;
+}
+</style>
+<script type="text/javascript">function play(){document.getElementById('vidwrap').innerHTML = '<iframe width="320" height="540" src="https://www.youtube.com/embed/k99mV47zumo?controls=0" frameborder="0" allow="autoplay; encrypted-media"></iframe>';}
+function switchToVideo(){
+  document.getElementById('theOne').style.display = "block";
+  document.getElementById('poster').style.display = "none";
+  //document.getElementById('theOne').playVideo();
+}
+</script>
+</head>
 <body>
-It is working!<br><br>
-<video width="320" height="540" controls>
+<br><br>
+<table style="width:100%">
+  <tr>
+    <td colspan=3 height="50" align="center" valign="top"><p class="detail">Fore <span class="name">Studio</span></p></td>
+  </tr>
+  <tr bgcolor="#000000">
+    <td colspan="3" width="100%" bgcolor="#000000" align="center"><img src="small_screen.png" alt=""></td>
+  </tr>
+  <tr>
+    <td colspan=3 height="50" align="center"><br><p class="detail">Smart Ball</p></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td height="50" align="center"><br><p class="desc">Are you smart?! Can you beat the game?!<br>
+Move the bars and watch the balls fall!
+Get 4 in one tube and win!!!<br><br>
+
+Have fun thinking it over, beat your best score, then log into Game Center and beat your friends' scores!<br>
+Choose between random and winning games!
+<br><br>
+<b>Features</b><br>
+
+- 4 different colors<br>
+- cool background music<br>
+- Game Center leaderboards and achievements<br>
+- unlimited fun</p></td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td height="50" align="center"><img src="Launch40@2x.png" alt=""></td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td height="50" align="center"><br><img src="01_apple.png" alt=""></td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td height="50" align="center"><br>
+      <!--<img id="poster" src="01_apple.png" alt="" onclick="switchToVideo()">-->
+      <iframe id="theOne" width="220" height="315" src="https://www.youtube.com/embed/xqh86459YXs?autoplay=1&showinfo=0&controls=0&rel=0" frameborder="0" allow="autoplay; encrypted-media"></iframe>
+    </td>
+    <td>&nbsp;</td>
+  </tr>
+    <tr>
+    <td>&nbsp;</td>
+    <td height="50" align="right" valign="baseline">
+      <br>Contact us&nbsp;
+    </td>
+    <td valign="top" height="50"><a href="mailto:arthur.ry@gmail.com"><img width="30" height="30" src="Flat-2-Email.png" alt="" vspace="10"></a>
+    </td>
+    <td>&nbsp;</td>
+  </tr>
+
+</table>
+
+
+<!--<video width="320" height="540" controls>
   <source src="Movie.mov" type="video/mp4">
 </video>
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/k99mV47zumo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+-->
 </body>
 </html>
