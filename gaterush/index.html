@@ -1,9 +1,11 @@
 <html>
 <head>
-	<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, width=device-width" />
+	<!--<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, width=device-width" />-->
+	<meta http-equiv="content-type" content="text/html">
+	<meta content="width=device-width; initial-scale=1.0; maximum-scale=1.0;  user-scalable=0;" name="viewport">
 <style>
-table, th, td {
-    border: 1px;
+table, tr, th, td {
+    border: 0;
     border-collapse: collapse;
     margin: 0; 
     padding: 0;
@@ -16,15 +18,25 @@ p.desc { color:#000000;font-weight:normal;font-family:Calibri;font-size:18 }
 p.contact {padding-top: 5px;}
 </style>
 </head>
-<body>
-<br><br>
+<body topmargin="0" leftmargin="0" marginwidth="0" marginheight="0">
 <table style="width:100%">
-  <tr>
-    <td colspan=3 height="50" align="center" valign="top"><p class="detail">Fore <span class="name">Studio</span></p></td>
+  <tr bgcolor="#4e38f4">
+    <td colspan=3 height="50" align="center" valign="top"><img src="..\my_logo_small.png" vspace="30" alt="logo"></td>
   </tr>
-  <tr bgcolor="#000000">
-    <td colspan="3" bgcolor="#000000" align="center"><img src="small_screen.png" alt="Game image"></td>
+  <tr bgcolor="#224569" width="device-width">
+    <td colspan="3" align="center">
+    	<img src="screenshotsmall.png" alt="Screen shot"
+    	srcset="screenshotsmall.png 320w,
+    	        screenshotsmall2.png 375w,
+    	        screenshotsmall2.png 414w,
+    	        screenshot.png 1024w"
+    	sizes="(min-width: 1024px) 1024px, 100vw">
+    </td>
   </tr>
+</table>
+
+
+<table>  
   <tr>
     <td colspan=3 height="50" align="center"><br><p class="detail">Gate Rushhh</p></td>
   </tr>
