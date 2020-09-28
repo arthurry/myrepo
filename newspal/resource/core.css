@@ -1,0 +1,300 @@
+
+body {
+	font-size: 17px;
+  line-height: 22px;
+  font-family: "Adelle Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  color: #777;
+  background-color: #dedede;
+  max-width: 1800px;
+  margin: 0 auto;
+}
+
+h2 { 
+	font-size: 32px;
+	font-weight: 400; 
+	margin: 0 0 60px 0;
+	line-height: 95%;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+h3 { 
+	font-size: 19px; 
+	text-transform: uppercase;
+	margin-bottom: 0px;
+}
+
+p { margin: 0 0 20px 0; }
+
+a { }
+
+img { max-width: 100%; }
+.center { text-align: center; }
+.right { text-align: right; }
+.small { font-size: 0.75em; line-height: 1.4em; }
+
+
+#header {
+	background: url(../resource/bg-header2.jpg) center top no-repeat;
+	background-size: 1400px 592px;
+	height: 592px;
+	color: #fff;
+}
+#header-ja {
+	background: url(../resource/bg-header2.jpg) center top no-repeat;
+	background-size: 1400px 592px;
+	height: 592px;
+	color: #fff;
+}
+	#language {
+		left: 10px;
+		top : 10px;
+		width: 100px;
+		height: 24px;
+		position: absolute;
+		background-color: rgba(0,0,0,0.3);
+		border-radius: 4px;
+		font-size: 13px;
+		padding: 1px;
+		text-align: center;
+	}
+	#language a {
+		color: rgba(199, 167, 147, 1.000);
+		text-decoration: none;
+	}
+	#language a:hover {
+		color: rgba(255, 255, 255, 1.000);
+		text-decoration: none;
+	}
+	
+	.logo { 
+		width: 472px; 
+		margin: 0 0 -10px 0; 
+	}
+	.intro {
+		padding: 220px 0 0 0;
+	}
+	.intro p { 
+		font-size: 22px;
+		line-height: 24px;
+		padding: 0 60px 0 120px; 
+	}
+	.badges {
+		margin-top: 60px;
+		display: block;	
+		text-align: center;
+	}
+	.intro .badges img { 
+		width: 43%;
+	}
+	
+	.desc {
+		margin-left: 10px;
+	}
+	.social {
+		text-align: center;
+	}
+
+#features {
+	color: #fff;
+	text-align: center;
+}
+
+	#features p { opacity: 0.8; padding: 0 30px; }
+	#features h3 { margin-top: 30px; }
+	#features .col-1-3 {
+		padding-top: 120px;
+	}
+	#features #feature-set-3 .col-1-3 {
+		padding-top: 0px;
+	}
+
+	#feature-set-2 {
+		background-color: #e96457;
+		padding: 60px 0 0 0;
+		margin: 0;
+	}
+		#feature-set-2 img.fast { height: 110px; width: auto; }
+		#feature-set-2 img.offline { height: 60px; width: auto; margin: 25px 0; }
+
+		#feature-set-2 .col-1-3.device {
+			padding-top: 0px;
+		}
+		#feature-set-2 .device {
+			border-top-left-radius: 60px;
+			border-top-right-radius: 60px;
+			border-top: 0.18em solid #ca564a;
+			border-right: 0.18em solid #ca564a;
+			border-left: 0.18em solid #ca564a;
+		}
+			#feature-set-2 .device h3 { 
+				margin-bottom: 12px; 
+				margin-top: -10px;
+			}
+			#feature-set-2 .device h3 em {
+				font-style: normal; 
+				background-color: #e96457;
+				padding: 0 20px; 
+			}
+			#feature-set-2 .device img { width: 92%; margin-bottom: -5px; }
+
+	#feature-set-1 {
+		background-color: #f3a830;
+		padding: 60px 0 0 0;
+	}
+		#feature-set-1 img.algorithm { height: 110px; width: auto; }
+		#feature-set-1 img.push { height: 80px; width: auto; margin: 15px 0; }
+
+		#feature-set-1 .col-1-3.device {
+			padding-top: 0px;
+		}
+		#feature-set-1 .device {
+			border-top-left-radius: 60px;
+			border-top-right-radius: 60px;
+			border-top: 0.18em solid #c88823;
+			border-right: 0.18em solid #c88823;
+			border-left: 0.18em solid #c88823;
+		}
+			#feature-set-1 .device h3 { 
+				margin-bottom: 12px; 
+				margin-top: -10px;
+			}
+			#feature-set-1 .device h3 em {
+				font-style: normal; 
+				background-color: #f3a830;
+				padding: 0 20px; 
+			}
+			#feature-set-1 .device img { width: 92%; margin-bottom: -5px; }
+
+	#feature-set-3 {
+		background-color: #3a97d5;
+		padding: 60px 0 40px 0;
+	}
+		#feature-set-3 img { height: 110px; width: auto; }
+		#feature-set-3 img.downloads { height: 60px; width: auto; margin: 25px 0; }
+		#feature-set-3 .badges img { 
+			width: 34%; height: auto; margin: 20px 7px 0 7px; 
+		}
+
+#about {
+	background-color: white;
+	padding: 100px auto;
+}
+	#team {
+		padding: 40px 0;
+	}
+	#team h2 {
+		text-align: center;
+		margin: 0 0 20px 0;
+	}
+	
+	.member {
+		clear: both;
+		padding: 20px;
+	}
+	.member img {
+		height: 100px; width: 100px; margin-right: 14px; float:left; display: block;
+		border-radius: 50px; -webkit-border-radius: 50px; -moz-border-radius: 50px;
+	}
+	.member h4 {
+		color: black;
+		font-size: 20px; 
+		margin: 0;
+	}
+	.member h5 {
+		font-size: 17px; 
+		margin:0;
+		margin-top: 3px;
+	}
+	.member p {
+		margin-top: 10px;
+		overflow:auto; zoom:1;
+	}
+	
+	.investor {
+		margin: 20px 10px;
+		text-align: center;
+	}
+	
+#footer {
+	font-size: 13px;
+	line-height: 18px;
+	padding: 42px 0 20px 0;
+	background-color: #fff;
+}
+	#footer .logo-sm { 
+		float: left; 
+		height: 14px;
+		margin-right: 30px;
+	}
+	#footer a {
+		color: #3a97d5;
+		text-decoration: none;
+		-webkit-transition: .2s linear color;
+		transition: .2s linear color;
+	}
+		#footer a:hover {
+			color: #1c6ba0;
+		}
+	#footer ul { 
+		list-style: none;
+		padding: 0;
+		margin: 2px 0 0 0;
+	}
+	#footer ul li {
+		float: left;
+		text-transform: uppercase;
+		margin-right: 20px;
+	}
+	#footer .social {
+		position: relative;
+		top: -5px;
+	}
+
+.show-phone { display: none; }
+
+/* Icon font */
+@font-face {
+	font-family: 'icomoon';
+	src:url('../fonts/icomoon.eot?-3oyjed');
+	src:url('../fonts/icomoon.eot?#iefix-3oyjed') format('embedded-opentype'),
+		url('../fonts/icomoon.woff?-3oyjed') format('woff'),
+		url('../fonts/icomoon.ttf?-3oyjed') format('truetype'),
+		url('../fonts/icomoon.svg?-3oyjed#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-twitter:before {
+	font-size: 20px;
+	position: relative;
+	top: 4px;
+	margin-right: 2px;
+	margin-left: 2px;
+	content: "\e600";
+}
+.icon-facebook:before {
+	font-size: 20px;
+	position: relative;
+	top: 4px;
+	margin-right: 2px;
+	margin-left: 2px;
+	content: "\e601";
+}
+
+
