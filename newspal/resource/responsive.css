@@ -216,9 +216,9 @@
 
 @media (max-width: 475px) {
 	#header { 
-		background: url(../resource/bg-header-mobile2.jpg) -50px 65% no-repeat;
+		background: url(../resource/bg-header-mobile3.jpg) 65% no-repeat;
 		background-size: 130%;
-		height: 570px;
+		height: 580px;
 	}
 		#header .col-1-2 {
 			width: 100%;
