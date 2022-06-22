@@ -115,9 +115,9 @@
 	}
 
 	#header { 
-		background: url(../resource/bg-header-mobile-landscape.jpg) -40px -20px no-repeat;
+		background: url(../resource/bg-header-mobile2.jpg) -40px -20px no-repeat;
 		background-size: 110%;
-		height: 320px;
+		height: 820px;
 	}
 		#header .col-1-2 {
 			width: 50%;

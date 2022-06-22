@@ -1,3 +1,8 @@
+a:link, a:visited {
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+}
 
 body {
 	font-size: 17px;
@@ -42,8 +47,8 @@ img { max-width: 100%; }
 	color: #fff;
 }
 #header-ja {
-	background: url(../resource/bg-header2.jpg) center top no-repeat;
-	background-size: 1400px 592px;
+	background: url(../resource/bg-header-mobile2.jpg) center top no-repeat;
+	background-size: 1100px 492px;
 	height: 592px;
 	color: #fff;
 }
@@ -73,7 +78,7 @@ img { max-width: 100%; }
 		margin: 0 0 -10px 0; 
 	}
 	.intro {
-		padding: 220px 0 0 0;
+		padding: 150px 0 0 0;
 	}
 	.intro p { 
 		font-size: 22px;
@@ -89,8 +94,39 @@ img { max-width: 100%; }
 		width: 43%;
 	}
 	
+	.badges2 {
+		margin-top: 1px;
+		display: block;	
+		text-align: center;
+		margin-bottom: 0px;
+	}
+	.intro .badges2 img { 
+		width: 35%;
+	}
+	
 	.desc {
 		margin-left: 10px;
+	}
+	.desc2 {
+		margin-left: 10px;
+		text-underline-offset: 5px;
+		text-decoration: underline;
+		font-family: 'Source Serif Pro', serif;
+		margin: 0 0 10px 0;
+	}
+	.desc3{
+		margin-bottom: -15px;
+		font-size: 18px;
+		line-height: 95%;
+		font-family: 'Source Serif Pro', serif;
+		font-weight: 400;
+	}
+	.author {
+		font-size: 18px;
+		line-height: 55%;
+		font-family: 'Source Serif Pro', serif;
+		font-weight: 300;
+		margin: 0 0 0 0;
 	}
 	.social {
 		text-align: center;
@@ -253,48 +289,4 @@ img { max-width: 100%; }
 	}
 
 .show-phone { display: none; }
-
-/* Icon font */
-@font-face {
-	font-family: 'icomoon';
-	src:url('../fonts/icomoon.eot?-3oyjed');
-	src:url('../fonts/icomoon.eot?#iefix-3oyjed') format('embedded-opentype'),
-		url('../fonts/icomoon.woff?-3oyjed') format('woff'),
-		url('../fonts/icomoon.ttf?-3oyjed') format('truetype'),
-		url('../fonts/icomoon.svg?-3oyjed#icomoon') format('svg');
-	font-weight: normal;
-	font-style: normal;
-}
-
-[class^="icon-"], [class*=" icon-"] {
-	font-family: 'icomoon';
-	speak: none;
-	font-style: normal;
-	font-weight: normal;
-	font-variant: normal;
-	text-transform: none;
-	line-height: 1;
-
-	/* Better Font Rendering =========== */
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-}
-
-.icon-twitter:before {
-	font-size: 20px;
-	position: relative;
-	top: 4px;
-	margin-right: 2px;
-	margin-left: 2px;
-	content: "\e600";
-}
-.icon-facebook:before {
-	font-size: 20px;
-	position: relative;
-	top: 4px;
-	margin-right: 2px;
-	margin-left: 2px;
-	content: "\e601";
-}
-
 
