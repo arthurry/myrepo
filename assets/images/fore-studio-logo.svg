@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 120" role="img" aria-labelledby="title">
+<title id="title">Fore Studio</title>
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#2f80ed"/><stop offset="1" stop-color="#14b8a6"/></linearGradient></defs>
+<g transform="translate(8 8)">
+<path d="M12 12h88v24H38v18h52v23H38v27H12z" fill="url(#g)"/>
+<path d="M68 12h32v24H68z" fill="#16324f" opacity=".14"/>
+</g>
+<text x="132" y="78" font-family="Arial,Helvetica,sans-serif" font-size="58" font-weight="700" letter-spacing="-2" fill="#142b45">Fore</text>
+<text x="280" y="78" font-family="Arial,Helvetica,sans-serif" font-size="58" font-weight="400" letter-spacing="-2" fill="#2f80ed">Studio</text>
+</svg>
