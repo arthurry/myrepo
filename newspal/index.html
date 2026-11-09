@@ -19,26 +19,10 @@
 	<meta property="og:url" content="https://www.forestudio.ca/newspal">
 	<style>
 /* NewsPal - Wattpad promotional banner */
-
-#header {
-    position: relative;
-}
-
 .wattpad-promo {
-    position: absolute;
-    z-index: 10;
-    left: 25px;
-    right: 25px;
-    top: 10px;
-    bottom: auto;
-
-    background: rgba(41, 32, 57, 0.94);
+    background: #292039;
     color: #ffffff;
-    padding: 22px 28px;
-
-    border-radius: 18px;
-    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.25);
-    box-sizing: border-box;
+    padding: 32px 20px;
 }
 
 .wattpad-promo-inner {
@@ -77,25 +61,38 @@
     margin: 0;
 }
 
+.wattpad-promo-link {
+    display: inline-block;
+    flex-shrink: 0;
+    background: #f3b64d;
+    color: #292039;
+    padding: 13px 24px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: none;
+    transition: background 0.2s ease;
+}
+
+.wattpad-promo-link:hover {
+    background: #ffd078;
+    color: #292039;
+    text-decoration: none;
+}
+
 @media (max-width: 767px) {
     .wattpad-promo {
-        position: relative;
-        left: auto;
-        right: auto;
-        bottom: auto;
-        margin: 15px;
-        padding: 22px 20px;
-        border-radius: 16px;
+        padding: 28px 20px;
         text-align: center;
     }
 
     .wattpad-promo-inner {
         flex-direction: column;
-        gap: 15px;
+        gap: 20px;
     }
 
     .wattpad-promo h2 {
-        font-size: 20px;
+        font-size: 21px;
     }
 
     .wattpad-promo p {
